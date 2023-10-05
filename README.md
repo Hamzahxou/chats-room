@@ -1,5 +1,5 @@
 # chats-room
 
-##cara install 
+## cara install 
 buka terminal ketik
-''' git clone https://github.com/Hamzahxou/Chat-Room.git '''
+'''git clone https://github.com/Hamzahxou/Chat-Room.git'''
