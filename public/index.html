@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Hamzahxou" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="chat room simple" />
+    <meta property="og:title" content="chat room" />
+    <meta property="og:image" content="https://kosred.com/a/ttvjka.jpg" />
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <span class="notiv"></span>
+    <div class="q"></div>
+    <div class="loadings"></div>
+    <div class="waktu"></div>
+    <ul id="messages"></ul>
+    <form id="form" class="form">
+      <div class="AreaTop">
+        <input class="nama" id="name" placeholder="Name" autocomplete="off" />
+        <div>
+          <input
+            type="file"
+            name="image"
+            id="image"
+            class="file-input__input"
+            accept="image/*"
+          />
+          <label class="file-input__label" for="image">
+            <span id="uploads">Upload file</span></label
+          >
+        </div>
+      </div>
+      <div class="pesanArea">
+        <textarea
+          class="pesan"
+          id="input"
+          placeholder="Message"
+          autocomplete="off"
+          autofocus
+          minlength="1"
+        ></textarea>
+        <button class="btn">🚀</button>
+      </div>
+      <div class="down" id="down"><a href="#end">▼</a></div>
+    </form>
+    <div id="end"></div>
+    <script src="js/skeleton.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
